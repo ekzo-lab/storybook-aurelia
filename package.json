@@ -1,6 +1,6 @@
 {
   "name": "@storybook/aurelia",
-  "version": "6.5.0-alpha.64",
+  "version": "6.5.9",
   "description": "Storybook for Aurelia: Develop Aurelia Components in isolation with Hot Reloading.",
   "keywords": [
     "storybook"
@@ -38,17 +38,17 @@
     "prepare": "node ../../scripts/prepare.js"
   },
   "dependencies": {
-    "@storybook/addons": "6.5.0-alpha.64",
-    "@storybook/api": "6.5.0-alpha.64",
-    "@storybook/client-logger": "6.5.0-alpha.64",
-    "@storybook/core": "6.5.0-alpha.64",
-    "@storybook/core-common": "6.5.0-alpha.64",
-    "@storybook/core-events": "6.5.0-alpha.64",
+    "@storybook/addons": "^6.5.9",
+    "@storybook/api": "^6.5.9",
+    "@storybook/client-logger": "^6.5.9",
+    "@storybook/core": "^6.5.9",
+    "@storybook/core-common": "^6.5.9",
+    "@storybook/core-events": "^6.5.9",
     "@storybook/csf": "0.0.2--canary.7c6c115.0",
-    "@storybook/docs-tools": "6.5.0-alpha.64",
-    "@storybook/node-logger": "6.5.0-alpha.64",
+    "@storybook/docs-tools": "^6.5.9",
+    "@storybook/node-logger": "^6.5.9",
     "@storybook/semver": "^7.3.2",
-    "@storybook/store": "6.5.0-alpha.64",
+    "@storybook/store": "^6.5.9",
     "fork-ts-checker-webpack-plugin": "^4.1.6",
     "global": "^4.4.0",
     "react": "16.14.0",
@@ -61,7 +61,7 @@
   "devDependencies": {
     "@types/node": "^14.14.20",
     "@types/webpack-env": "^1.16.0",
-    "aurelia": "2.0.0-alpha.28",
+    "aurelia": "latest",
     "css-loader": "^3.6.0",
     "file-loader": "^4.3.0",
     "html-webpack-plugin": "^3.2.0",
@@ -74,10 +74,9 @@
     "webpack": "^4.46.0"
   },
   "peerDependencies": {
-    "aurelia": ">=2.0.0-alpha.28"
+    "aurelia": "latest"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "8ba485343b31df4e65fce2494a5f615d6d6c661d"
+  }
 }
